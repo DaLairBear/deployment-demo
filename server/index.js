@@ -6,3 +6,7 @@ app.get('/', (req,res)=>{
 })
 const port = process.env.PORT || 4005
 app.listen(port, ()=>{console.log(`Chewy hit port ${port}.`)})
+
+app.get('/css', function (req,res) {
+    res.sendFile(path.join(__dirname, "../styles.css"))
+})
