@@ -1,0 +1,140 @@
+.home {
+    align-items: flex-start;
+    background-color: var(--cararra);
+    display: flex;
+    height: 1024px;
+    padding: 0 185px;
+    width: 1440px;
+}
+
+.home .header-contatiner {
+    height: 70px;
+    left: 185px;
+    position: fixed;
+    top: 22px;
+    width: 1000px;
+    z-index: 1;
+}
+
+.home .title {
+    height: 30px;
+    left: 217px;
+    letter-spacing: 0;
+    position: fixed;
+    text-align: center;
+    top: 42px;
+    z-index: 2;
+}
+
+.home .collection-btn {
+    background-color: var(--shark);
+    border-radius: 5px;
+    cursor: pointer;
+    height: 40px;
+    left: 665px;
+    position: fixed;
+    top: 37px;
+    width: 100px;
+    z-index: 6;
+}
+
+.home .collection {
+    height: 23px;
+    left: 669px;
+    letter-spacing: 0;
+    position: fixed;
+    text-align: center;
+    top: 46px;
+    z-index: 9;
+}
+
+.home .decks-btn {
+    background-color: var(--shark);
+    border-radius: 5px;
+    cursor: pointer;
+    height: 40px;
+    left: 795px;
+    position: fixed;
+    top: 37px;
+    width: 100px;
+    z-index: 5;
+}
+
+.home .decks {
+    height: 23px;
+    left: 818px;
+    letter-spacing: 0;
+    position: fixed;
+    text-align: center;
+    top: 46px;
+    z-index: 8;
+}
+
+.home .register-btn {
+    background-color: var(--shark);
+    border-radius: 5px;
+    cursor: pointer;
+    height: 40px;
+    left: 925px;
+    position: fixed;
+    top: 37px;
+    z-index: 7;
+}
+
+.home .place {
+    height: 23px;
+    left: 936px;
+    letter-spacing: 0;
+    position: fixed;
+    text-align: center;
+    top: 46px;
+    z-index: 7;
+}
+
+.home .login-btn {
+    background-color: var(--shark);
+    border-radius: 5px;
+    cursor: pointer;
+    height: 40px;
+    left: 1055px;
+    position: fixed;
+    top: 37px;
+    width: 100px;
+    z-index: 3;
+}
+
+.home .login {
+    height: 23px;
+    left: 1079px;
+    letter-spacing: 0;
+    position: fixed;
+    text-align: center;
+    top: 46px;
+    z-index: 10;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Kameron:700");
+
+.screen a {
+    display: contents;
+    text-decoration: none;
+}
+
+.containter-center-horizontal {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    pointer-events: none;
+    width: 100%;
+}
+
+.containter-center-horizontal > * {
+    flex-shrink: 0;
+    pointer-events: auto;
+}
+
+.valign-text-middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
